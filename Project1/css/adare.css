@@ -23,12 +23,18 @@ header {
 
 nav {
   background-color: rgba(0, 0, 0, 0.338);
-  height: 40px;
   text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  padding-top: 14px;
+  padding-bottom: 14px;
 }
 
 nav a {
   color: white;
+  text-decoration: none;
+  font-size: 12px;
+  padding-left: 10px;
+  padding-right: 10px;
 }
 
 main {
@@ -42,8 +48,16 @@ main {
 }
 
 footer {
-  background-color: greenyellow;
-  height: 100px;
+  background-color: rgba(0, 0, 0, 0.338);
+}
+
+footer p {
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 12px;
+  color: white;
+  padding-top: 14px;
+  padding-bottom: 14px;
 }
 
 main h1 {
